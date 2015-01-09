@@ -5,6 +5,7 @@
 * Git (2.2.0+)
 * Node.js (0.10.0+)
 * Ruby (2.0.0+)
+* RubyGem Bundler (1.7.9+)
 * PHP (5.4.0+)
 * PHP mcrypt extension
 

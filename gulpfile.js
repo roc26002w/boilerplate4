@@ -43,6 +43,7 @@ gulp.task('styles', function() {
     return gulp.src('assets/styles/*.sass')
         .pipe($.plumber())
         .pipe($.rubySass({
+            bundleExec: true,
             style: 'expanded',
             precision: 10
         }))

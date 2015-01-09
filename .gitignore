@@ -1,11 +1,5 @@
 /bootstrap/compiled.php
 /vendor
-composer.phar
-composer.lock
-.env.*.php
-.env.php
-.DS_Store
-Thumbs.db
 /app/views
 /public/bower_components
 /node_modules
@@ -16,3 +10,11 @@ Thumbs.db
 /public/fonts
 /public/images
 /.sass-cache
+/.bundle
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+Gemfile.lock
