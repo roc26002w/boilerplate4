@@ -1,10 +1,12 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "jaceju/laragulp",
+	"description": "Skeleton of Laravel 4.2 and Gulp.",
+	"keywords": ["framework", "laravel","gulp"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
+		"php": ">=5.4",
+		"ext-mcrypt": "*",
 		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
@@ -27,7 +29,10 @@
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
-			"php artisan key:generate"
+			"php artisan key:generate",
+			"npm install",
+			"bower install",
+			"gulp"
 		]
 	},
 	"config": {
