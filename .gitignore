@@ -8,3 +8,4 @@ composer.lock
 Thumbs.db
 /app/views
 /public/bower_components
+/node_modules
