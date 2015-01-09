@@ -22,20 +22,19 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"npm install",
-			"./node_modules/bower/bin/bower install",
 			"./node_modules/gulp/bin/gulp.js",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
-			"npm install",
-			"./node_modules/bower/bin/bower install",
 			"./node_modules/gulp/bin/gulp.js",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
+			"bundle install --path=.bundle",
+			"npm install",
+			"./node_modules/bower/bin/bower install",
 			"php artisan key:generate"
 		]
 	},
