@@ -164,7 +164,7 @@ gulp.task('clean:cache', function (cb) {
 });
 
 // Clean
-gulp.task('clean:build', ['clean:develop', 'clean:cache'], function(cb) {
+gulp.task('clean', ['clean:develop', 'clean:cache'], function(cb) {
     del(['public/css', 'public/js', 'public/fonts', 'public/images'], cb);
 });
 
@@ -175,5 +175,5 @@ gulp.task('clean:temporary', function (cb) {
 
 // Build
 gulp.task('default', function(cb) {
-    runSequence('clean:build', 'build', 'clean:temporary', cb);
+    runSequence('clean', 'build', 'clean:temporary', cb);
 });
