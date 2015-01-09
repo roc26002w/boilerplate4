@@ -9,3 +9,10 @@ Thumbs.db
 /app/views
 /public/bower_components
 /node_modules
+/public/styles
+/public/scripts
+/public/css
+/public/js
+/public/fonts
+/public/images
+/.sass-cache
