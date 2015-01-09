@@ -1,5 +1,6 @@
 {
 	"name": "jaceju/laragulp",
+	"version": "0.1.0",
 	"description": "Skeleton of Laravel 4.2 and Gulp.",
 	"keywords": ["framework", "laravel","gulp"],
 	"license": "MIT",
