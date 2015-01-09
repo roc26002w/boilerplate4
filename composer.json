@@ -23,14 +23,14 @@
 		"post-install-cmd": [
 			"php artisan clear-compiled",
 			"npm install",
-			"bower install",
+			"./node_modules/bower/bin/bower install",
 			"gulp",
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
 			"npm install",
-			"bower install",
+			"./node_modules/bower/bin/bower install",
 			"gulp",
 			"php artisan optimize"
 		],
