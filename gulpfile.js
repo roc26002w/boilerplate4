@@ -22,7 +22,7 @@ gulp.task('wiredep', ['templates'], function() {
     var wiredep = require('wiredep').stream;
     var merge = require('merge-stream');
 
-    var styleDeps = gulp.src('assets/styles/*.sass')
+    var styleDeps = gulp.src('assets/styles/*.scss')
         .pipe(wiredep({
             directory: 'public/bower_components'
         }))
@@ -40,7 +40,7 @@ gulp.task('wiredep', ['templates'], function() {
 
 // Styles
 gulp.task('styles', function() {
-    return gulp.src('assets/styles/*.sass')
+    return gulp.src('assets/styles/*.scss')
         .pipe($.plumber())
         .pipe($.rubySass({
             bundleExec: true,
