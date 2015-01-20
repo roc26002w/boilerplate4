@@ -67,14 +67,12 @@ gulp.task('scripts', function() {
 // Images
 gulp.task('images', function() {
     return gulp.src('assets/images/**/*')
-        // // Install gulp-imagemin first:
-        // // `npm install --save-dev gulp-imagemin`
-        // .pipe($.plumber())
-        // .pipe($.cache($.imagemin({
-        //     optimizationLevel: 3,
-        //     progressive: true,
-        //     interlaced: true
-        // })))
+        .pipe($.plumber())
+        .pipe($.cache($.imagemin({
+            optimizationLevel: 3,
+            progressive: true,
+            interlaced: true
+        })))
         .pipe(gulp.dest('public/images'))
         .pipe($.size({ title: 'images' }));
 });
