@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Laravel PHP Framework</title>
+<link rel="shortcut icon" href="/favicon.png">
 <!-- build:css css/vendor.css -->
 <!-- bower:css -->
 <!-- endbower -->
