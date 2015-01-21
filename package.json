@@ -27,6 +27,7 @@
     "gulp-useref": "^1.0.2",
     "jshint-stylish": "^1.0.0",
     "merge-stream": "^0.1.6",
+    "require-dir": "^0.1.0",
     "run-sequence": "^1.0.2",
     "uglify-save-license": "^0.4.1",
     "wiredep": "^2.2.2"
