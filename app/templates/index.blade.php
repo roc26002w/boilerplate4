@@ -17,7 +17,7 @@
 <h1>Hello world!</h1>
 
 
-<!-- build:js js/vender.js -->
+<!-- build:js js/vendor.js -->
 <!-- bower:js -->
 <!-- endbower -->
 <!-- endbuid -->
