@@ -25,7 +25,7 @@
 			"bundle install --path=.bundle",
 			"npm install",
 			"./node_modules/bower/bin/bower install",
-			"./node_modules/gulp/bin/gulp.js",
+			"./node_modules/gulp/bin/gulp.js"
 		],
 		"post-install-cmd": [
 			"php artisan clear-compiled",
