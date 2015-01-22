@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 
 // Inject bower components
-gulp.task('wiredep', ['templates'], function() {
+gulp.task('wiredep', function() {
     var wiredep = require('wiredep').stream;
     var merge = require('merge-stream');
 
@@ -14,7 +14,7 @@ gulp.task('wiredep', ['templates'], function() {
         }))
         .pipe(gulp.dest('assets/styles'));
 
-    var tplDeps = gulp.src('app/views/**/*.blade.php')
+    var tplDeps = gulp.src('app/templates/**/*.blade.php')
         .pipe(wiredep({
             ignorePath: '../../public/',
             exclude: ['modernizr']
