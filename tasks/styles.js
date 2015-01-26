@@ -2,13 +2,15 @@
 
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
+var fs = require('fs');
 
 // Styles
 gulp.task('styles', function() {
     return gulp.src('assets/styles/*.scss')
         .pipe($.plumber())
         .pipe($.rubySass({
-            bundleExec: true,
+            container: (+new Date) + '', // bug of temporary path generating.
+            bundleExec: fs.existsSync('.bundle'),
             style: 'expanded',
             precision: 10
         }))
