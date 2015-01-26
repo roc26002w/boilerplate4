@@ -22,10 +22,7 @@
 	},
 	"scripts": {
 		"post-root-package-install": [
-			"bundle install --path=.bundle",
-			"npm install",
-			"./node_modules/bower/bin/bower install",
-			"./node_modules/gulp/bin/gulp.js"
+			"sh < ./build.sh"
 		],
 		"post-install-cmd": [
 			"php artisan clear-compiled",
