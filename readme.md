@@ -1,4 +1,4 @@
-# LaraGulp: Skeleton of Laravel 4.2 and Gulp
+# Boilerplate4: Skeleton of Laravel 4.2 and Gulp
 
 ## Requirements
 
