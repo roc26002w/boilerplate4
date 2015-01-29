@@ -14,7 +14,7 @@
 Create project by `composer create-project`:
 
 ```
-$ composer create-project jaceju/laragulp <project-name> -s dev
+$ composer create-project jaceju/boilerplate4 <project-name> -s dev
 ```
 
 ## Gulp commands
