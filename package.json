@@ -1,6 +1,5 @@
 {
   "name": "boilerplate4",
-  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "bower": "^1.3.12",
@@ -34,6 +33,6 @@
     "wiredep": "^2.2.2"
   },
   "engines": {
-    "node": "~0.10.0"
+    "node": ">=0.10.0"
   }
 }
