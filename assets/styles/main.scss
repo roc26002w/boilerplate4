@@ -1,10 +1,25 @@
+html {
+  font-size: 16px;
+}
+
 body {
-  background: #000;
+  color: #666;
+  background: #eee;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 5em;
-  line-height: 10em;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  line-height: 3rem;
   text-align: center;
-  color: #fff;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
 }

@@ -9,6 +9,7 @@
 /public/js
 /public/fonts
 /public/images
+/styleguide
 /.sass-cache
 /.bundle
 composer.phar

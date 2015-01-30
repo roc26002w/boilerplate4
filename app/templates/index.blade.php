@@ -14,9 +14,9 @@
 <!-- endbuild -->
 </head>
 <body>
+<div class="wrapper">
 <h1>Hello world!</h1>
-
-
+</div>
 <!-- build:js js/vendor.js -->
 <!-- bower:js -->
 <!-- endbower -->

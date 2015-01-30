@@ -15,6 +15,7 @@ A boilerplate of Laravel 4.2 and Gulp for initializing your full stack project.
 
 * Gulp
 * Bower
+* Hologram
 
 ## Installation
 
