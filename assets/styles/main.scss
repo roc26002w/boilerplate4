@@ -3,23 +3,34 @@ html {
 }
 
 body {
-  color: #666;
-  background: #eee;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #B0BEC5;
+  display: table;
+  font-weight: 100;
+  font-family: 'Lato';
 }
 
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-h1 {
-  margin-bottom: 3rem;
-  font-size: 3rem;
-  line-height: 3rem;
+.container {
+  height: 100vh;
   text-align: center;
-  color: #333;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-p {
-  font-size: 1.2rem;
+.content {
+  text-align: center;
+  display: inline-block;
+}
+
+.title {
+  font-size: 96px;
+  margin-bottom: 40px;
+}
+
+.quote {
+  font-size: 24px;
 }
