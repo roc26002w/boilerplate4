@@ -1,19 +1,10 @@
 {
-  "name": "laragulp",
-  "version": "0.1.0",
-  "homepage": "https://github.com/jaceju/laravel-gulp",
+  "name": "boilerplate4",
+  "homepage": "https://github.com/jaceju/boilerplate4",
   "authors": [
     "Jace Ju <jaceju@gmail.com>"
   ],
-  "license": "MIT",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "bootstrap": "~3.3.1"
   }

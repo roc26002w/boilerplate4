@@ -1,4 +1,6 @@
-# Boilerplate4: Skeleton of Laravel 4.2 and Gulp
+# Boilerplate4
+
+A boilerplate of Laravel 4.2 and Gulp for initializing your full stack project.
 
 ## Requirements
 
@@ -8,6 +10,11 @@
 * RubyGem Bundler (1.7.9+)
 * PHP (5.4.0+)
 * PHP mcrypt extension
+
+## Integrations
+
+* Gulp
+* Bower
 
 ## Installation
 

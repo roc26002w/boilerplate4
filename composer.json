@@ -1,8 +1,8 @@
 {
 	"name": "jaceju/boilerplate4",
 	"version": "0.1.0",
-	"description": "Skeleton of Laravel 4.2 and Gulp.",
-	"keywords": ["framework", "laravel","gulp"],
+	"description": "A boilerplate of Laravel 4.2 and Gulp for initializing your full stack project.",
+	"keywords": ["framework", "laravel", "gulp"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
