@@ -2,14 +2,15 @@
 
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
+var config = require('./config');
 
 // Fonts
 gulp.task('fonts', function () {
     return gulp.src([
-            'assets/fonts/*.{otf,eot,svg,ttf,woff}',
-            'public/bower_components/**/fonts/**/*.{otf,eot,svg,ttf,woff}'
+            config.fontSrcDir + '/*.{otf,eot,svg,ttf,woff}',
+            config.bowerDir + '/**/fonts/**/*.{otf,eot,svg,ttf,woff}'
         ])
         .pipe($.flatten())
-        .pipe(gulp.dest('public/fonts'))
+        .pipe(gulp.dest(config.fontBuildDir))
         .pipe($.size({ title: 'fonts' }));
 });
